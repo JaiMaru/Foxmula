@@ -30,9 +30,16 @@ public class calcOccurence {
 		
 		System.out.println("Occurence of each element");
 		
+		Iterator<Map.Entry<Integer,Integer>> mIterator = m.entrySet().iterator();
+	
+		while(mIterator.hasNext()) {
+			Map.Entry<Integer,Integer> e = mIterator.next();
+			System.out.println("Element: "+e.getKey()+ " Value: "+ e.getValue());
+		}
+		/*
 		for(Map.Entry<Integer,Integer> e: m.entrySet())
 			System.out.println("Element: "+e.getKey()+ " Value: "+ e.getValue());
-		
+		*/
 	}
 
 }

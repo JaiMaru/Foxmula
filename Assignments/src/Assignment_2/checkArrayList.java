@@ -17,7 +17,7 @@ public class checkArrayList {
 		
 		System.out.println("Enter the element to be searched");
 		
-		System.out.println(list.contains(sc.nextInt()) ? "Element is present." : "Element is absent.");		
+		System.out.println(list.contains(sc.nextInt()) ? "Element is present." : "Element is absent.");	
 	}
 
 }
